@@ -12,8 +12,20 @@
       <p>
         <router-link to="/">Go to Home</router-link>
         <router-link to="/About">Go to About</router-link>
+        <router-link to="/user/Crazy User">Go to User with params</router-link>
       </p>
+    </div>
 
+    <div id="app2">
+      <span v-if="ok">Yes</span>
+      <span v-else>No</span>
+    </div>
+
+    <div v-if="Math.random() > 0.5">
+      Now you see me
+    </div>
+    <div v-else>
+      Now you don't
     </div>
 
     <script src="JS/index.js"></script>
