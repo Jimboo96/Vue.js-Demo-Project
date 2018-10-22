@@ -1,5 +1,17 @@
-html, body, h1{
+html, body{
     margin: 5px;
+    background-color: #101010;
     padding: 0;
     text-align: center;
+}
+
+button {
+  margin: 5px;
+  padding: 7.5px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  color: #ffffff;
 }
